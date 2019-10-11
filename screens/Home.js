@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import { View, Text, StyleSheet, Platform, Dimensions } from 'react-native';
+import { ScrollView, View, Text, StyleSheet, Platform, Dimensions } from 'react-native';
 import Slider from '../components/Slider';
 import SearchInput from '../components/SearchInput';
+import HorizontalSlider from '../components/HorizontalSlider';
 
 const { width } = Dimensions.get('window');
 
@@ -9,7 +10,7 @@ class Home extends Component {
 
 	render() {
 		return (
-			<View style={styles.homeWrapper}>
+			<ScrollView style={styles.homeWrapper} contentContainerStyle={styles.homeContentWrapper}>
 				<View style={styles.header}>
 					<View style={styles.logoWrapper} />
 					<Text style={styles.title}>
@@ -18,16 +19,20 @@ class Home extends Component {
 				</View>
 				<Slider />
 				<SearchInput />
-			</View>
+				<HorizontalSlider />
+				<HorizontalSlider />
+			</ScrollView>
 		);
 	}
 }
 
 const styles = StyleSheet.create({
-	homeWrapper: {
-		flex: 1,
-		paddingTop: Platform.OS === 'ios' ? 60 : 0,
+	homeContentWrapper: {
 		alignItems: 'center',
+	},
+	homeWrapper: {
+		flex: 1
+		// paddingTop: Platform.OS === 'ios' ? 60 : 0,
 	},
 	header: {
 		flexDirection: 'row',

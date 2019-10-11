@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Animated, Dimensions, FlatList, Image, StyleSheet, View } from 'react-native';
+import InfiniteScroll from 'react-native-infinite-looping-scroll';
 
 const { width } = Dimensions.get('window');
 
@@ -68,13 +69,14 @@ class Slider extends Component {
 	};
 
 	scrollToIndex = (index, animated) => {
-		this.listRef && this.listRef.scrollToIndex({ index, animated });
+		//console.log(this.listRef.infListRef._listRef)
+		//this.listRef && this.listRef.scrollToIndex({ index, animated });
 	};
 
 	render() {
 		return (
 			<View style={styles.sliderContainer}>
-				<FlatList
+				<InfiniteScroll
 					horizontal
 					pagingEnabled
 					scrollEnabled

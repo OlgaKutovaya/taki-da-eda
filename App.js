@@ -1,19 +1,51 @@
 import React from 'react';
-import { createBottomTabNavigator, createAppContainer } from 'react-navigation';
+import { createBottomTabNavigator, createStackNavigator, createAppContainer } from 'react-navigation';
 import Home from './screens/Home';
 import Shop from './screens/Shop';
 import Cart from './screens/Cart';
 import Account from './screens/Account';
+import Product from './screens/Product';
 
-const AppNavigator = createBottomTabNavigator({
+const HomeStackNavigator = createStackNavigator({
 	Home: {
 		screen: Home,
 		navigationOptions: () => ({
 			title: `Главная`,
 		}),
 	},
+	Product: {
+		screen: Product,
+		navigationOptions: () => ({
+			title: `Продукт`,
+		}),
+	},
+});
+
+const ShopStackNavigator = createStackNavigator({
 	Shop: {
 		screen: Shop,
+		navigationOptions: () => ({
+			title: `Товары`,
+		}),
+	},
+
+	Product: {
+		screen: Product,
+		navigationOptions: () => ({
+			title: `Продукт`,
+		}),
+	},
+});
+
+const AppNavigator = createBottomTabNavigator({
+	Home: {
+		screen: HomeStackNavigator,
+		navigationOptions: () => ({
+			title: `Главная`,
+		}),
+	},
+	Shop: {
+		screen: ShopStackNavigator,
 		navigationOptions: () => ({
 			title: `Товары`,
 		}),

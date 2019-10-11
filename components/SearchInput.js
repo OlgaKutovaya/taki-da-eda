@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Dimensions, StyleSheet, TextInput } from 'react-native';
+import { Dimensions, StyleSheet, TextInput, Image } from 'react-native';
 import { View } from 'react-native';
-import Icon from 'react-native-vector-icons/Ionicons';
+import SearchIcon from '../assets/images/search.png';
 
 const { width } = Dimensions.get('window');
 
@@ -15,7 +15,7 @@ class SearchInput extends Component {
 		return (
 			<View style={styles.inputContainer}>
 				<View style={styles.inputIconContainer}>
-					<Icon name="ios-search" size={30} color="#9DA3B4" />
+					<Image source={SearchIcon} style={styles.inputIcon} resizeMode='contain' />
 				</View>
 				<TextInput
 					placeholder="Введите название продукта"
@@ -53,9 +53,12 @@ const styles = StyleSheet.create({
 		height: 44,
 	},
 	inputIconContainer: {
-		paddingLeft: 13,
-		paddingRight: 8,
-		justifyContent: 'center',
+		marginRight: -10,
+	},
+	inputIcon: {
+		width: 60,
+		height: 60,
+		opacity: 0.6,
 	},
 });
 

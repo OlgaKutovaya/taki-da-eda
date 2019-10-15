@@ -11,7 +11,7 @@ const slideData = [
 	'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBD6MnqDPItH7fmy2vJ7SpKnc4eDcKYM2Ca6P8peUQG5sSnnzx',
 ];
 
-class Slider extends Component {
+class ImageSlider extends Component {
 
 	state = {
 		slideIndex: 0,
@@ -123,8 +123,7 @@ const styles = StyleSheet.create({
 		flexDirection: 'row',
 		justifyContent: 'center',
 		alignItems: 'center',
-		marginTop: -15,
-		marginBottom: 35,
+		marginBottom: 15,
 	},
 	dots: {
 		width: 7, height: 7,
@@ -135,4 +134,4 @@ const styles = StyleSheet.create({
 	},
 });
 
-export default Slider;
+export default ImageSlider;

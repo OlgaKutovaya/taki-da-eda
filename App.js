@@ -1,10 +1,10 @@
 import React from 'react';
 import { createBottomTabNavigator, createStackNavigator, createAppContainer } from 'react-navigation';
-import Home from './screens/Home';
-import Shop from './screens/Shop';
-import Cart from './screens/Cart';
-import Account from './screens/Account';
-import Product from './screens/Product';
+import Home from './src/screens/Home';
+import Shop from './src/screens/Shop';
+import Cart from './src/screens/Cart';
+import Account from './src/screens/Account';
+import Product from './src/screens/Product';
 
 const HomeStackNavigator = createStackNavigator({
 	Home: {

@@ -3,8 +3,9 @@ import { createBottomTabNavigator, createStackNavigator, createAppContainer } fr
 import Home from './src/screens/Home';
 import Shop from './src/screens/Shop';
 import Cart from './src/screens/Cart';
-import Account from './src/screens/Account';
 import Product from './src/screens/Product';
+import Info from './src/screens/Info';
+import SubcategoryList from './src/screens/SubcategoryList';
 
 const HomeStackNavigator = createStackNavigator({
 	Home: {
@@ -35,6 +36,13 @@ const ShopStackNavigator = createStackNavigator({
 			title: `Продукт`,
 		}),
 	},
+
+	Subcategory: {
+		screen: SubcategoryList,
+		navigationOptions: () => ({
+
+		}),
+	}
 });
 
 const AppNavigator = createBottomTabNavigator({
@@ -56,10 +64,10 @@ const AppNavigator = createBottomTabNavigator({
 			title: `Корзина`,
 		}),
 	},
-	Account: {
-		screen: Account,
+	Info: {
+		screen: Info,
 		navigationOptions: () => ({
-			title: `Аккаунт`,
+			title: `Информация`,
 		}),
 	},
 });

@@ -1,0 +1,371 @@
+[
+  {
+    "categoryName": "Любимые сыры",
+    "categoryQuantity": 110,
+    "subCategoryList": [
+      {
+        "title": "Твёрдые",
+        "detailsList": [
+          {
+            "name": "Твёрдые-1",
+            "price": 120
+          },
+          {
+            "name": "Твёрдые-2",
+            "price": 180
+          }
+        ]
+      },
+      {
+        "title": "Полутвёрдые",
+        "detailsList": [
+          {
+            "name": "Полутвёрдые-1",
+            "price": 90
+          },
+          {
+            "name": "Полутвёрдые-2",
+            "price": 110
+          }
+        ]
+      },
+      {
+        "title": "Мягкие",
+        "detailsList": [
+          {
+            "name": "Мягкие-1",
+            "price": 90
+          },
+          {
+            "name": "Мягкие-2",
+            "price": 110
+          }
+        ]
+      },
+      {
+        "title": "Творожные",
+        "detailsList": [
+          {
+            "name": "Творожные-1",
+            "price": 90
+          },
+          {
+            "name": "Творожные-2",
+            "price": 110
+          }
+        ]
+      },
+      {
+        "title": "Рассольные",
+        "detailsList": [
+          {
+            "name": "Рассольные-1",
+            "price": 90
+          },
+          {
+            "name": "Рассольные-2",
+            "price": 110
+          }
+        ]
+      },
+      {
+        "title": "Плавленые",
+        "detailsList": [
+          {
+            "name": "Плавленые-1",
+            "price": 90
+          },
+          {
+            "name": "Плавленые-2",
+            "price": 110
+          }
+        ]
+      },
+      {
+        "title": "Сырные тарелки",
+        "detailsList": [
+          {
+            "name": "Сырные тарелки-1",
+            "price": 90
+          },
+          {
+            "name": "Сырные тарелки-2",
+            "price": 110
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryName": "Мясные деликатесы",
+    "categoryQuantity": 70,
+    "subCategoryList": [
+      {
+        "title": "Вяленое мясо",
+        "detailsList": [
+          {
+            "name": "Вяленое мясо-1",
+            "price": 140
+          },
+          {
+            "name": "Вяленое мясо-2",
+            "price": 150
+          }
+        ]
+      },
+      {
+        "title": "Салями",
+        "detailsList": [
+          {
+            "name": "Салями-1",
+            "price": 90
+          },
+          {
+            "name": "Салями-2",
+            "price": 110
+          }
+        ]
+      },
+      {
+        "title": "Сосиски",
+        "detailsList": [
+          {
+            "name": "Сосиски-1",
+            "price": 90
+          },
+          {
+            "name": "Сосиски-2",
+            "price": 110
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryName": "Оливки и производные",
+    "categoryQuantity": 50,
+    "subCategoryList": [
+      {
+        "title": "Масло",
+        "detailsList": [
+          {
+            "name": "Масло-1",
+            "price": 140
+          },
+          {
+            "name": "Масло-2",
+            "price": 150
+          }
+        ]
+      },
+      {
+        "title": "Оливки",
+        "detailsList": [
+          {
+            "name": "Оливки-1",
+            "price": 90
+          },
+          {
+            "name": "Оливки-2",
+            "price": 110
+          }
+        ]
+      },
+      {
+        "title": "Греческие закуски ",
+        "detailsList": [
+          {
+            "name": "Греческие закуски -1",
+            "price": 90
+          },
+          {
+            "name": "Греческие закуски -2",
+            "price": 110
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryName": "Морепродукты",
+    "categoryQuantity": 180
+  },
+  {
+    "categoryName": "Паштеты",
+    "categoryQuantity": 30
+  },
+  {
+    "categoryName": "Макароны",
+    "categoryQuantity": 222
+  },
+  {
+    "categoryName": "Соусы",
+    "categoryQuantity": 170
+  },
+  {
+    "categoryName": "Горячие напитки",
+    "categoryQuantity": 150,
+    "subCategoryList": [
+      {
+        "title": "Чай",
+        "detailsList": [
+          {
+            "name": "Чай-1",
+            "price": 90
+          },
+          {
+            "name": "Чай-2",
+            "price": 70
+          }
+        ]
+      },
+      {
+        "title": "Кофе",
+        "detailsList": [
+          {
+            "innerTitle": "Кофе в зёрнах",
+            "innerDetailList": [
+              {
+                "name": "Кофе в зёрнах-1",
+                "price": 70
+              },
+              {
+                "name": "Кофе в зёрнах-2",
+                "price": 80
+              }
+            ]
+          },
+          {
+            "innerTitle": "Кофе молотый",
+            "innerDetailList": [
+              {
+                "name": "Кофе молотый-1",
+                "price": 70
+              },
+              {
+                "name": "Кофе молотый-2",
+                "price": 80
+              }
+            ]
+          },
+          {
+            "innerTitle": "Кофе растворимый",
+            "innerDetailList": [
+              {
+                "name": "Кофе растворимый-1",
+                "price": 70
+              },
+              {
+                "name": "Кофе растворимый-2",
+                "price": 80
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Какао и горячимы шоколад",
+        "detailsList": [
+          {
+            "name": "Какао-1",
+            "price": 90
+          },
+          {
+            "name": "Какао-2",
+            "price": 70
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryName": "Сладости",
+    "categoryQuantity": 370,
+
+    "subCategoryList": [
+      {
+        "title": "Варенье и пасты",
+        "detailsList": [
+          {
+            "name": "Варенье-1",
+            "price": 120
+          },
+          {
+            "name": "Пасты-2",
+            "price": 180
+          }
+        ]
+      },
+      {
+        "title": "Шоколад",
+        "detailsList": [
+          {
+            "name": "Шоколад-1",
+            "price": 120
+          },
+          {
+            "name": "Шоколад-2",
+            "price": 180
+          }
+        ]
+      },
+      {
+        "title": "Конфеты",
+        "detailsList": [
+          {
+            "name": "Конфеты-1",
+            "price": 120
+          },
+          {
+            "name": "Конфеты-2",
+            "price": 180
+          }
+        ]
+      },
+      {
+        "title": "К празднику ",
+        "detailsList": [
+          {
+            "name": "К празднику -1",
+            "price": 120
+          },
+          {
+            "name": "К празднику -2",
+            "price": 180
+          }
+        ]
+      },
+      {
+        "title": "Печенье и вафли",
+        "detailsList": [
+          {
+            "name": "Печенье-1",
+            "price": 120
+          },
+          {
+            "name": "Вафли-2",
+            "price": 180
+          }
+        ]
+      },
+      {
+        "title": "Орехи",
+        "detailsList": [
+          {
+            "name": "Орехи-1",
+            "price": 120
+          },
+          {
+            "name": "Орехи-2",
+            "price": 180
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryName": "Подарочные наборы",
+    "categoryQuantity": 75
+  }
+]
+

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import { createBottomTabNavigator, createStackNavigator, createAppContainer } from 'react-navigation';
 import Home from './src/screens/Home';
 import Shop from './src/screens/Shop';
@@ -6,6 +6,7 @@ import Cart from './src/screens/Cart';
 import Product from './src/screens/Product';
 import Info from './src/screens/Info';
 import SubcategoryList from './src/screens/SubcategoryList';
+import SplashScreen from 'react-native-splash-screen'
 
 const HomeStackNavigator = createStackNavigator({
 	Home: {
@@ -72,4 +73,21 @@ const AppNavigator = createBottomTabNavigator({
 	},
 });
 
-export default createAppContainer(AppNavigator);
+const Navigator =  createAppContainer(AppNavigator);
+
+class App extends Component {
+	componentDidMount()  {
+		SplashScreen.hide()
+	}
+
+	render() {
+		return (
+			<>
+			<Navigator/>
+			</>
+		);
+	}
+}
+
+export default App;
+

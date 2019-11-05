@@ -1,26 +1,6 @@
 import React, {Component} from 'react';
-import {TouchableOpacity, ScrollView, View, Text, StyleSheet, Dimensions} from 'react-native';
-
-const {width} = Dimensions.get('window');
-
-const cartProductList = [
-    {
-        title: 'Сыр Пармезан',
-        categoryWeight: true,
-        weight: 100,
-        price: 170,
-        cartProductWeight: 450,
-        cartProductPrice: 595,
-    },
-    {
-        title: 'Сыр Фета',
-        categoryWeight: false,
-        weight: 270,
-        price: 170,
-        cartProductWeight: 450,
-        cartProductPrice: 595,
-    },
-];
+import {ScrollView, View, Text} from 'react-native';
+import {styles} from '../../styles/screens/cart/CartStyles';
 
 class Cart extends Component {
     state = {
@@ -34,7 +14,7 @@ class Cart extends Component {
             <View style={styles.headerWrapper}>
                 <View style={styles.innerHeaderWrapper}>
                     <Text style={styles.headerTitle}>Всего товаров: </Text>
-                    <Text style={styles.headerTitleCount}>{this.state.countProducts} </Text>
+                        <Text style={styles.headerTitleCount}>{this.state.countProducts} </Text>
                 </View>
                 <Text style={styles.headerText}>
                     Доставка осуществляется при оформлении заказа на сумму от 500 гривен
@@ -46,7 +26,7 @@ class Cart extends Component {
     renderCartItems = () => {
         return (
             <View>
-
+                <Text>Product info</Text>
             </View>
         );
     };
@@ -84,42 +64,3 @@ class Cart extends Component {
 }
 
 export default Cart;
-
-const styles = StyleSheet.create({
-    cartScreenWrapper: {
-        flex: 1,
-        paddingTop: Platform.OS === 'ios' ? 30 : 0,
-    },
-    cartContentWrapper: {
-        alignItems: 'center',
-        paddingTop: 25
-    },
-    headerWrapper: {
-        alignItems: 'center',
-        paddingBottom: 15,
-        borderBottomWidth: 1,
-        borderBottomColor: 'darkgreen',
-        width: width * 0.9
-    },
-    innerHeaderWrapper: {
-        flexDirection: 'row',
-        alignItems: 'center'
-    },
-    headerTitle: {
-        fontSize: 22,
-        letterSpacing: 1
-    },
-    headerTitleCount: {
-        fontSize: 25,
-        color: 'darkred',
-        fontWeight: 'bold'
-    },
-    headerText: {
-        marginTop: 12,
-        textAlign: 'center',
-        fontSize: 16,
-        lineHeight: 19,
-        color: 'darkred',
-        fontStyle: 'italic'
-    }
-});

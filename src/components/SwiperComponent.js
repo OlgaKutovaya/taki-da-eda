@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import {Dimensions, Image, Text, StyleSheet, View, ImageBackground} from 'react-native';
+import {Text, View, ImageBackground} from 'react-native';
 import Swiper from 'react-native-swiper';
+import {styles} from '../styles/components/SwiperComponentStyles';
 
-const {width} = Dimensions.get('window');
 
 const slideData = [
     {
@@ -45,7 +45,9 @@ export class SwiperComponent extends Component {
                                     source={{uri: item.image}}
                                     style={styles.slideInner}>
                                     <View style={styles.titleContainer}>
-                                        <Text style={styles.title}>{item.title}</Text>
+                                        <Text style={styles.title}>
+                                            {item.title}
+                                        </Text>
                                     </View>
                                 </ImageBackground>
                             </View>
@@ -57,64 +59,6 @@ export class SwiperComponent extends Component {
         );
     }
 }
-
-const styles = StyleSheet.create({
-    swiperContainer: {
-        height: 200,
-        alignItems: 'center',
-    },
-    wrapper: {
-        width: width,
-        justifyContent: 'center',
-    },
-    slide: {
-        width: width,
-        height: 200,
-        alignItems: 'center',
-        borderRadius: 5,
-    },
-    slideInner: {
-        flex: 1,
-        width: width * 0.9,
-        justifyContent: 'center',
-    },
-    titleContainer: {
-        flex: 1,
-        justifyContent: 'center',
-        backgroundColor: 'rgba(21,28,31,0.6)',
-    },
-    title: {
-        color: '#fff',
-        textAlign: 'center',
-        fontSize: 17,
-        lineHeight: 23,
-        fontWeight: 'bold',
-    },
-    dotInactive: {
-        backgroundColor: 'rgba(0,0,0,.2)',
-        width: 8,
-        height: 8,
-        borderRadius: 4,
-        marginLeft: 3,
-        marginRight: 3,
-        marginTop: 3,
-        marginBottom: 3,
-        borderWidth: 1,
-        borderColor: 'black',
-    },
-    dotActive: {
-        backgroundColor: 'white',
-        width: 8,
-        height: 8,
-        borderRadius: 4,
-        marginLeft: 3,
-        marginRight: 3,
-        marginTop: 3,
-        marginBottom: 3,
-        borderWidth: 1,
-        borderColor: 'black',
-    },
-});
 
 export default SwiperComponent;
 

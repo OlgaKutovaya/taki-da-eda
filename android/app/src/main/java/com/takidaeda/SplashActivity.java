@@ -1,4 +1,4 @@
-package com.glycemicapp;
+package com.takidaeda;
 
 import android.content.Intent;
 import android.os.Bundle;

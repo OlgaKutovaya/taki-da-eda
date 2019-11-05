@@ -1,0 +1,101 @@
+[
+  {
+    "categoryName": "Личная гигиена",
+    "image": "https://clean-ural.ru/images/sredstva-gigieny.jpg",
+    "subCategoryList": [
+      {
+        "title": "Уход за телом",
+        "image": "https://ultrapodarki.ru/upload/iblock/d33/d3387ed5b3a470ec52262e1db77c8ae1.jpg"
+      },
+      {
+        "title": "Уход за руками",
+        "image": "http://n1s2.hsmedia.ru/3d/3a/2f/3d3a2fdafecb85512850278f1f586bbd/680x374_21_c80e0c7a0e58338bf2ed2830dfbfce46@690x380_0x0a330c2a_7390772781544699644.jpeg"
+      },
+      {
+        "title": "Уход за полостью рта",
+        "image": "http://belkosmetik.com/_sh/11/1103c.jpg"
+      }
+    ]
+  },
+  {
+    "categoryName": "Чистота на кухне",
+    "image": "http://prostoest.ru/wp-content/uploads/2014/08/y_shutterstock_64128949-727x522.jpg",
+    "subCategoryList": [
+      {
+        "title": "Для плиты",
+        "image": "https://belwater.by/sites/default/files/gubka_0.jpg"
+      },
+      {
+        "title": "Для поверхностей",
+        "image": "https://historyclothing.ru/wp-content/uploads/2018/10/CHem-vytirat-pyl-chtoby-ona-menshe-sadilas.jpg"
+      },
+      {
+        "title": "Для раковины",
+        "image": "https://problesk.by/public/uploads/%D0%A0%D0%B0%D0%BA%D0%BE%D0%B2%D0%B8%D0%BD%D0%B0.jpg"
+      },
+      {
+        "title": "Для посудомоечной машины",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDtJ8kBSuZui53LOTSjK_n2j560nfjGVdergQth3_CW6Dplh81&s"
+      }
+    ]
+  },
+  {
+    "categoryName": "Чистота в доме",
+    "image": "https://67.img.avito.st/640x480/5471746367.jpg",
+    "subCategoryList": [
+      {
+        "title": "Уход за мебелью",
+        "image": "https://mebel.net.ua/wp-content/uploads/cleaning-tips-e1470255465299.jpg"
+      },
+      {
+        "title": "Уход за полом",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLLHabVG1WICS9h1hL93dBoTjrQzLRPSF7WXvSCZU-XbqC3TCa6g&s"
+      }
+    ]
+  },
+  {
+    "categoryName": "Чистота в ванной комнате",
+    "image": "http://www.bloomhuff.com/uploads/posts/2019-06/1561459431_other-puls-11.jpg",
+    "subCategoryList": [
+      {
+        "title": "Уход за душевой",
+        "image": "http://bob-master.ru/wp-content/uploads/2019/07/chistka-dk.jpg"
+      },
+      {
+        "title": "Уход за поверхностями",
+        "image": "https://gidpoplitke.ru/wp-content/uploads/2015/03/chistim-plitku-v-vannoj-komnate.jpg"
+      },
+      {
+        "title": "Уход за унитазом",
+        "image": "http://colombo.ua/wp-content/uploads/2017/07/Other-WC-Antisplash-big.jpg"
+      }
+    ]
+  },
+  {
+    "categoryName": "Стирка",
+    "image": "http://zastirkoi.ru/sites/default/files/stirka_0.jpg",
+    "subCategoryList": [
+      {
+        "title": "Для белого",
+        "image": "https://xaax.ru/images/52/Ceriy%20cvet.JPG"
+      },
+      {
+        "title": "Для цветного",
+        "image": "http://sailid-textil.ru/images/article/new2/01-stirka-postelnogo-belya-2.jpg",
+      },
+      {
+        "title": "Для чёрного",
+        "image": "http://sibetiketka.ru/images/kak-vernut-cvet-chernym-veshham-3.jpg"
+
+      },
+      {
+        "title": "Ополаскиватели",
+        "image": "https://www.westland.ru/upload/iblock/49e/49e392a3e70082c420fa31c7f263b86b.jpg"
+      },
+      {
+        "title": "Другие средства",
+        "image": "https://apollo-ireland.akamaized.net/v1/files/mwnxiqbkazih1-UA/image;s=644x461"
+      }
+    ]
+  }
+]

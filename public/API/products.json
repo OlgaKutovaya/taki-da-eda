@@ -1,96 +1,251 @@
 [
   {
     "categoryName": "Любимые сыры",
-    "categoryQuantity": 110,
+    "image": "https://chesom.com/blog/wp-content/uploads/2015/02/food_____different_varieties_of_cheese_086618_-900x540.jpg",
     "subCategoryList": [
       {
         "title": "Твёрдые",
+        "image": "https://e1.edimdoma.ru/data/posts/0001/6152/16152-ed4_wide.jpg?1495009389",
         "detailsList": [
           {
-            "name": "Твёрдые-1",
-            "price": 120
+            "name": "Cheddar",
+            "weight": 100,
+            "price": 120,
+            "image": "http://cdn.shopify.com/s/files/1/0150/0232/products/Pearl_Valley_Sharp_Cheddar_Slices_grande.jpg?v=1524073010",
+            "shortConsist": "Этот сыр богат витаминами (A, PP, B1, B2, B5, B6, B9, B12, E, бета-каротин и ниацин), макроэлементами (кальций, натрий, магний, калий, фосфор), микроэлементами (железо, цинк, марганец, медь) и аминокислотами (глютаминовая кислота, лизин, изолейцин, лейцин и другие). "
           },
           {
-            "name": "Твёрдые-2",
-            "price": 180
+            "name": "Cantorel",
+            "weight": 100,
+            "price": 180,
+            "image": "http://www.aoap.com.au/SiteMedia/W3SVC567/Uploads/Images/BDV%20stylised%202.jpg",
+            "shortConsist": "Этот сыр богат витаминами (A, PP, B1, B2, B5, B6, B9, B12, E, бета-каротин и ниацин), макроэлементами (кальций, натрий, магний, калий, фосфор), микроэлементами (железо, цинк, марганец, медь) и аминокислотами (глютаминовая кислота, лизин, изолейцин, лейцин и другие). "
+          },
+          {
+            "name": "Wyke Leicester",
+            "weight": 100,
+            "price": 180,
+            "image": "https://images.yaoota.com/W_lkyuM8HzwdZTg-H-YIlPqA4OU=/trim/yaootaweb-production/media/crawledproductimages/49b15bc6314da54a76b48a136e08982381521f87.jpg",
+            "shortConsist": "Этот сыр богат витаминами (A, PP, B1, B2, B5, B6, B9, B12, E, бета-каротин и ниацин), макроэлементами (кальций, натрий, магний, калий, фосфор), микроэлементами (железо, цинк, марганец, медь) и аминокислотами (глютаминовая кислота, лизин, изолейцин, лейцин и другие). "
+          },
+          {
+            "name": "Cheddar",
+            "weight": 100,
+            "price": 120,
+            "image": "https://lovingitvegan.com/wp-content/uploads/2018/11/Vegan-Cheddar-Cheese-12.jpg",
+            "shortConsist": "Этот сыр богат витаминами (A, PP, B1, B2, B5, B6, B9, B12, E, бета-каротин и ниацин), макроэлементами (кальций, натрий, магний, калий, фосфор), микроэлементами (железо, цинк, марганец, медь) и аминокислотами (глютаминовая кислота, лизин, изолейцин, лейцин и другие). "
+          },
+          {
+            "name": "Cantorel",
+            "weight": 100,
+            "price": 180,
+            "image": "http://www.aoap.com.au/SiteMedia/W3SVC567/Uploads/Images/Bleu%20de%20Laqueuille%201.2kg_1.jpg",
+            "shortConsist": "Этот сыр богат витаминами (A, PP, B1, B2, B5, B6, B9, B12, E, бета-каротин и ниацин), макроэлементами (кальций, натрий, магний, калий, фосфор), микроэлементами (железо, цинк, марганец, медь) и аминокислотами (глютаминовая кислота, лизин, изолейцин, лейцин и другие). "
+          },
+          {
+            "name": "Wyke Leicester",
+            "weight": 100,
+            "price": 180,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz3oGpeTyCvek1tIEn12eiNt3SL8KeJInW771DL-yZor3BHeRy&s",
+            "shortConsist": "Этот сыр богат витаминами (A, PP, B1, B2, B5, B6, B9, B12, E, бета-каротин и ниацин), макроэлементами (кальций, натрий, магний, калий, фосфор), микроэлементами (железо, цинк, марганец, медь) и аминокислотами (глютаминовая кислота, лизин, изолейцин, лейцин и другие). "
+          },
+          {
+            "name": "Cheddar",
+            "weight": 100,
+            "price": 120,
+            "image": "https://previews.123rf.com/images/bhofack2/bhofack21402/bhofack2140200039/25775005-organic-sharp-cheddar-cheese-on-a-cutting-board.jpg",
+            "shortConsist": "Этот сыр богат витаминами (A, PP, B1, B2, B5, B6, B9, B12, E, бета-каротин и ниацин), макроэлементами (кальций, натрий, магний, калий, фосфор), микроэлементами (железо, цинк, марганец, медь) и аминокислотами (глютаминовая кислота, лизин, изолейцин, лейцин и другие). "
+          },
+          {
+            "name": "Cantorel",
+            "weight": 100,
+            "price": 180,
+            "image": "https://www.thespruceeats.com/thmb/C8nkCLJhMFBlcfCfWRRLsi4x5bQ=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/135582439-56a371c45f9b58b7d0d1fc80.jpg",
+            "shortConsist": "Этот сыр богат витаминами (A, PP, B1, B2, B5, B6, B9, B12, E, бета-каротин и ниацин), макроэлементами (кальций, натрий, магний, калий, фосфор), микроэлементами (железо, цинк, марганец, медь) и аминокислотами (глютаминовая кислота, лизин, изолейцин, лейцин и другие). "
+          },
+          {
+            "name": "Wyke Leicester",
+            "weight": 100,
+            "price": 180,
+            "image": "https://www.slowfood.org.uk/wp-content/uploads/2017/11/ApplebysDoubleGlouchester2.jpg",
+            "shortConsist": "Этот сыр богат витаминами (A, PP, B1, B2, B5, B6, B9, B12, E, бета-каротин и ниацин), макроэлементами (кальций, натрий, магний, калий, фосфор), микроэлементами (железо, цинк, марганец, медь) и аминокислотами (глютаминовая кислота, лизин, изолейцин, лейцин и другие). "
+          },
+          {
+            "name": "Wyke Leicester",
+            "weight": 100,
+            "price": 180,
+            "image": "https://www.specialtyfood.com/media/CACHE/images/multi_image_uploader/source/2b/55/2b55f6ebc0c913e9a97fcb69de2e9b24/aged-mature-e1517252738163-300x300.jpg",
+            "shortConsist": "Этот сыр богат витаминами (A, PP, B1, B2, B5, B6, B9, B12, E, бета-каротин и ниацин), макроэлементами (кальций, натрий, магний, калий, фосфор), микроэлементами (железо, цинк, марганец, медь) и аминокислотами (глютаминовая кислота, лизин, изолейцин, лейцин и другие). "
           }
         ]
       },
       {
         "title": "Полутвёрдые",
+        "image": "https://4esnok.by/wp-content/uploads/2018/05/%D0%A4%D0%9E%D0%A2%D0%9E-1-36.jpg",
         "detailsList": [
           {
-            "name": "Полутвёрдые-1",
-            "price": 90
+            "name": "Cantal",
+            "weight": 100,
+            "price": 90,
+            "image": "https://s3.envato.com/files/254084146/2180729-005.jpg",
+            "shortConsist": "Этот сыр богат витаминами (A, PP, B1, B2, B5, B6, B9, B12, E, бета-каротин и ниацин), макроэлементами (кальций, натрий, магний, калий, фосфор), микроэлементами (железо, цинк, марганец, медь) и аминокислотами (глютаминовая кислота, лизин, изолейцин, лейцин и другие). "
           },
           {
-            "name": "Полутвёрдые-2",
-            "price": 110
+            "name": "Edam",
+            "weight": 100,
+            "price": 110,
+            "image": "https://cdn.castellocheese.com/globalassets/world-of-cheese/cheese-type-images/square/cheese-type-edam.jpg?width=375&height=530&mode=crop",
+            "shortConsist": "Этот сыр богат витаминами (A, PP, B1, B2, B5, B6, B9, B12, E, бета-каротин и ниацин), макроэлементами (кальций, натрий, магний, калий, фосфор), микроэлементами (железо, цинк, марганец, медь) и аминокислотами (глютаминовая кислота, лизин, изолейцин, лейцин и другие). "
+
+          },
+          {
+            "name": "Gouda",
+            "weight": 100,
+            "price": 110,
+            "image": "https://cdn.castellocheese.com/globalassets/world-of-cheese/cheese-type-images/square/cheese-type-gouda.jpg?width=375&height=530&mode=crop",
+            "shortConsist": "Этот сыр богат витаминами (A, PP, B1, B2, B5, B6, B9, B12, E, бета-каротин и ниацин), макроэлементами (кальций, натрий, магний, калий, фосфор), микроэлементами (железо, цинк, марганец, медь) и аминокислотами (глютаминовая кислота, лизин, изолейцин, лейцин и другие). "
+          },
+          {
+            "name": "Cantal",
+            "weight": 100,
+            "price": 90,
+            "image": "https://i2.wp.com/thephcheese.com/wp-content/uploads/2017/02/20170107_182348-e1487903008565.jpg?fit=1040%2C1849",
+            "shortConsist": "Этот сыр богат витаминами (A, PP, B1, B2, B5, B6, B9, B12, E, бета-каротин и ниацин), макроэлементами (кальций, натрий, магний, калий, фосфор), микроэлементами (железо, цинк, марганец, медь) и аминокислотами (глютаминовая кислота, лизин, изолейцин, лейцин и другие). "
+          },
+          {
+            "name": "Edam",
+            "weight": 100,
+            "price": 110,
+            "image": "http://oldeuropecheese.com/wp-content/uploads/2017/09/Edam-glamour-product.jpg",
+            "shortConsist": "Этот сыр богат витаминами (A, PP, B1, B2, B5, B6, B9, B12, E, бета-каротин и ниацин), макроэлементами (кальций, натрий, магний, калий, фосфор), микроэлементами (железо, цинк, марганец, медь) и аминокислотами (глютаминовая кислота, лизин, изолейцин, лейцин и другие). "
+
+          },
+          {
+            "name": "Gouda",
+            "weight": 100,
+            "price": 110,
+            "image": "https://cdn11.bigcommerce.com/s-7c08qbh/images/stencil/1280x1280/products/175/4148/agedgouda-beemster__68492.1528138663.jpg?c=2&imbypass=on",
+            "shortConsist": "Этот сыр богат витаминами (A, PP, B1, B2, B5, B6, B9, B12, E, бета-каротин и ниацин), макроэлементами (кальций, натрий, магний, калий, фосфор), микроэлементами (железо, цинк, марганец, медь) и аминокислотами (глютаминовая кислота, лизин, изолейцин, лейцин и другие). "
           }
         ]
       },
       {
         "title": "Мягкие",
+        "image": "https://from-zhukovka.ru/images/news/big/myagkie-siri-pravila-vibori-polza-soveti-po-primeneniu.jpg",
         "detailsList": [
           {
-            "name": "Мягкие-1",
-            "price": 90
+            "name": "Bergader",
+            "weight": 100,
+            "price": 110,
+            "image": "https://d1jie5o4kjowzg.cloudfront.net/multiple-story-images/bergader_table.jpg?N4GBSe4AOOrbPEoqySOD4yBMHsq21END"
           },
           {
-            "name": "Мягкие-2",
-            "price": 110
+            "name": "Bettine",
+            "weight": 100,
+            "price": 110,
+            "image": "https://www.foodbev.com/wp-content/uploads/2016/02/Emmi-Betine-goats-cheese.jpg"
+          },
+          {
+            "name": "Bettine",
+            "weight": 100,
+            "price": 110,
+            "image": "https://www.kowalskis.com/sites/default/files/styles/node_recipe_meal_full_large/public/2017-09/montchevre-muffaletta.jpg?h=5ad15dfb&itok=Fb-_seLC"
+          },
+          {
+            "name": "Bergader",
+            "weight": 100,
+            "price": 110,
+            "image": "https://d1jie5o4kjowzg.cloudfront.net/multiple-story-images/bergader_table.jpg?N4GBSe4AOOrbPEoqySOD4yBMHsq21END"
+          },
+          {
+            "name": "Bettine",
+            "weight": 100,
+            "price": 110,
+            "image": "https://www.foodbev.com/wp-content/uploads/2016/02/Emmi-Betine-goats-cheese.jpg"
+          },
+          {
+            "name": "Bettine",
+            "weight": 100,
+            "price": 110,
+            "image": "https://www.kowalskis.com/sites/default/files/styles/node_recipe_meal_full_large/public/2017-09/montchevre-muffaletta.jpg?h=5ad15dfb&itok=Fb-_seLC"
           }
         ]
       },
       {
         "title": "Творожные",
+        "image": "https://amwomen.ru/wp-content/uploads/2016/09/0234e680a1a3f52a8197e221d27cde29.jpg",
         "detailsList": [
           {
-            "name": "Творожные-1",
-            "price": 90
+            "name": "Hochland Almette",
+            "weight": 100,
+            "price": 110,
+            "image": ""
           },
           {
-            "name": "Творожные-2",
-            "price": 110
+            "name": "Danville Creamy",
+            "weight": 100,
+            "price": 110,
+            "image": ""
+          },
+          {
+            "name": "Auchan",
+            "weight": 100,
+            "price": 110,
+            "image": ""
           }
         ]
       },
       {
         "title": "Рассольные",
+        "image": "https://www.edimdoma.ru/system/images/contents/0000/2614/wide/AdobeStock_105364477.jpg?1552991239",
         "detailsList": [
           {
             "name": "Рассольные-1",
-            "price": 90
+            "weight": 100,
+            "price": 110,
+            "image": ""
           },
           {
             "name": "Рассольные-2",
-            "price": 110
+            "weight": 100,
+            "price": 110,
+            "image": ""
           }
         ]
       },
       {
         "title": "Плавленые",
+        "image": "http://chemfood.ru/wp-content/uploads/2014/04/Main_cheese.jpg",
         "detailsList": [
           {
             "name": "Плавленые-1",
-            "price": 90
+            "weight": 100,
+            "price": 110,
+            "image": ""
           },
           {
             "name": "Плавленые-2",
-            "price": 110
+            "weight": 100,
+            "price": 110,
+            "image": ""
           }
         ]
       },
       {
         "title": "Сырные тарелки",
+        "image": "https://st2.depositphotos.com/2287637/5259/i/950/depositphotos_52599735-stock-photo-cheese-plate.jpg",
         "detailsList": [
           {
             "name": "Сырные тарелки-1",
-            "price": 90
+            "weight": 100,
+            "price": 110,
+            "image": ""
           },
           {
             "name": "Сырные тарелки-2",
-            "price": 110
+            "weight": 100,
+            "price": 110,
+            "image": ""
           }
         ]
       }
@@ -98,44 +253,59 @@
   },
   {
     "categoryName": "Мясные деликатесы",
-    "categoryQuantity": 70,
+    "image": "https://99px.ru/sstorage/53/2014/12/tmb_119050_5667.jpg",
     "subCategoryList": [
       {
         "title": "Вяленое мясо",
+        "image": "http://diet-world.ru/uploads/posts/2017-12/1512655883_original-2-.jpg",
         "detailsList": [
           {
             "name": "Вяленое мясо-1",
-            "price": 140
+            "weight": 100,
+            "price": 110,
+            "image": ""
           },
           {
             "name": "Вяленое мясо-2",
-            "price": 150
+            "weight": 100,
+            "price": 110,
+            "image": ""
           }
         ]
       },
       {
         "title": "Салями",
+        "image": "http://st.oede.by/st/img/publication/682x405/3368.jpg",
         "detailsList": [
           {
             "name": "Салями-1",
-            "price": 90
+            "weight": 100,
+            "price": 110,
+            "image": ""
           },
           {
             "name": "Салями-2",
-            "price": 110
+            "weight": 100,
+            "price": 110,
+            "image": ""
           }
         ]
       },
       {
         "title": "Сосиски",
+        "image": "http://www.rublevskiy-shop.ru/sitefiles/rn/801/Items/sosiski-rublevskie-1-df2xo4.jpg",
         "detailsList": [
           {
             "name": "Сосиски-1",
-            "price": 90
+            "weight": 100,
+            "price": 110,
+            "image": ""
           },
           {
             "name": "Сосиски-2",
-            "price": 110
+            "weight": 100,
+            "price": 110,
+            "image": ""
           }
         ]
       }
@@ -143,44 +313,59 @@
   },
   {
     "categoryName": "Оливки и производные",
-    "categoryQuantity": 50,
+    "image": "https://images.aif.ru/013/097/81a8b3ff6aaf24ea515e16f0be458c45.jpg",
     "subCategoryList": [
       {
         "title": "Масло",
+        "image": "",
         "detailsList": [
           {
             "name": "Масло-1",
-            "price": 140
+            "weight": 100,
+            "price": 110,
+            "image": ""
           },
           {
             "name": "Масло-2",
-            "price": 150
+            "weight": 100,
+            "price": 110,
+            "image": ""
           }
         ]
       },
       {
         "title": "Оливки",
+        "image": "",
         "detailsList": [
           {
             "name": "Оливки-1",
-            "price": 90
+            "weight": 100,
+            "price": 110,
+            "image": ""
           },
           {
             "name": "Оливки-2",
-            "price": 110
+            "weight": 100,
+            "price": 110,
+            "image": ""
           }
         ]
       },
       {
         "title": "Греческие закуски ",
+        "image": "",
         "detailsList": [
           {
             "name": "Греческие закуски -1",
-            "price": 90
+            "weight": 100,
+            "price": 110,
+            "image": ""
           },
           {
             "name": "Греческие закуски -2",
-            "price": 110
+            "weight": 100,
+            "price": 110,
+            "image": ""
           }
         ]
       }
@@ -188,26 +373,27 @@
   },
   {
     "categoryName": "Морепродукты",
-    "categoryQuantity": 180
+    "image": "https://24.kz/media/k2/items/cache/3f4c5e61f8fbdeb19694ea1427a922f1_XL.jpg",
   },
   {
     "categoryName": "Паштеты",
-    "categoryQuantity": 30
+    "image": "https://sgastronomy.ru/wp-content/uploads/2016/07/z.jpg",
   },
   {
     "categoryName": "Макароны",
-    "categoryQuantity": 222
+    "image": "http://www.dsnews.ua/static/img/1/_/1___212_771x517.jpg",
   },
   {
     "categoryName": "Соусы",
-    "categoryQuantity": 170
+    "image": "https://www.chefmarket.ru/blog/wp-content/uploads/2019/02/sauce-e1550351615568.jpg",
   },
   {
     "categoryName": "Горячие напитки",
-    "categoryQuantity": 150,
+    "image": "https://crazy.casa/upload/media/entries/2017-02/28/12335-0-a7e57ff76acc2b8f0fa80995a7bcb1d3.jpg",
     "subCategoryList": [
       {
         "title": "Чай",
+        "image": "https://life.pravda.com.ua/images/doc/1/4/14038d2-lypa.jpg",
         "detailsList": [
           {
             "name": "Чай-1",
@@ -221,6 +407,7 @@
       },
       {
         "title": "Кофе",
+        "image": "https://brayval-coffee.com.ua/content/uploads/images/kak-nejtralizovat-dejstvie-kofe111.jpg",
         "detailsList": [
           {
             "innerTitle": "Кофе в зёрнах",
@@ -264,7 +451,8 @@
         ]
       },
       {
-        "title": "Какао и горячимы шоколад",
+        "title": "Какао и горячий шоколад",
+        "image": "https://av.ru/recipe-static//media/recipes/100381_picture_hXnL2Zm.jpg",
         "detailsList": [
           {
             "name": "Какао-1",
@@ -280,8 +468,7 @@
   },
   {
     "categoryName": "Сладости",
-    "categoryQuantity": 370,
-
+    "image": "http://prodengi.kz/images/cms/data/1516693990_24296312_jpg_770x380_q85_crop_01.jpg",
     "subCategoryList": [
       {
         "title": "Варенье и пасты",
@@ -365,7 +552,7 @@
   },
   {
     "categoryName": "Подарочные наборы",
-    "categoryQuantity": 75
+    "image": "http://eventexpress.by/sites/default/files/styles/product/public/boombox.jpg?itok=1VWpyQXc"
   }
 ]
 

@@ -27,13 +27,15 @@ export const styles = StyleSheet.create({
         marginBottom: 15,
     },
     productName: {
+        width: 200,
+        flexWrap: 'wrap',
         fontSize: 22,
         fontWeight: 'bold',
-        color: palette.zuccini,
+        color: palette.seaGreen,
         lineHeight: 35,
     },
     productWeight: {
-        color: palette.tamarillo,
+        color: palette.burntUmber,
         lineHeight: 20,
     },
     productPriceContainer: {
@@ -47,12 +49,12 @@ export const styles = StyleSheet.create({
     productPrice: {
         fontSize: 17,
         fontWeight: 'bold',
-        color: palette.tamarillo,
+        color: palette.burntUmber,
     },
 
     // ShortDescription
     consistDescriptionWrapper: {
-        borderColor: palette.zuccini,
+        borderColor: palette.seaGreen,
         borderWidth: 1,
         marginTop: 10,
         paddingHorizontal: 7,
@@ -61,7 +63,7 @@ export const styles = StyleSheet.create({
     },
     consistDescriptionTitle: {
         textAlign: 'justify',
-        color: palette.zuccini,
+        color: palette.seaGreen,
         fontWeight: 'bold',
         fontSize: 17,
 
@@ -74,7 +76,7 @@ export const styles = StyleSheet.create({
     goToFullDescriptionBtn: {
         alignSelf: 'flex-end',
         marginTop: 15,
-        backgroundColor: palette.zuccini,
+        backgroundColor: palette.seaGreen,
         paddingVertical: 10,
         paddingHorizontal: 40,
         borderRadius: 5,
@@ -85,13 +87,13 @@ export const styles = StyleSheet.create({
     // Content
     pricePerGrText: {
         fontSize: 16,
-        color: palette.tamarillo,
+        color: palette.burntUmber,
         fontStyle: 'italic',
     },
     minWeightOrderText: {
         fontSize: 16,
         paddingVertical: 5,
-        color: palette.zuccini,
+        color: palette.seaGreen,
     },
     addToFavouriteWrapper: {
         marginVertical: 15
@@ -100,7 +102,7 @@ export const styles = StyleSheet.create({
     counterContentWrapper: {
         marginTop: 30,
         paddingVertical: 25,
-        borderTopColor: palette.zuccini,
+        borderTopColor: palette.seaGreen,
         borderTopWidth: 1
     },
     counterContent: {
@@ -109,7 +111,7 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
     },
     counterTitle: {
-        color: palette.zuccini,
+        color: palette.seaGreen,
         textTransform: 'uppercase',
         fontSize: countTextSize
     },
@@ -124,20 +126,20 @@ export const styles = StyleSheet.create({
     counterQuantity: {
         fontSize: countTextSize,
         fontWeight: 'bold',
-        color: palette.tamarillo,
+        color: palette.burntUmber,
         marginHorizontal: 7
     },
     measureText: {
         marginLeft: 7,
         fontSize: countTextSize,
-        color: palette.zuccini
+        color: palette.seaGreen
     },
     addToCartBtn: {
         marginTop: 20,
         marginBottom: 5,
         paddingVertical: 20,
         alignItems: 'center',
-        backgroundColor: palette.zuccini,
+        backgroundColor: palette.seaGreen,
         borderRadius: 5
     },
     addToCartBtnText: {

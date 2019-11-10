@@ -17,7 +17,8 @@ import Info from './src/screens/Info/Info';
 import SubcategoryList from './src/screens/Shop/Products/SubcategoryList';
 import ProductDetails from './src/screens/Shop/Products/ProductDetails';
 import ProductDetailsDescription from './src/screens/Shop/Products/ProductDetailsDescription';
-import WelcomeScreen from './src/screens/Weilcome/Weilcome';
+import WelcomeScreen from './src/screens/Welcome/Weilcome';
+import CheckoutUnregisteredUser from './src/screens/Cart/CheckoutUnregisteredUser';
 
 const styles = StyleSheet.create({
     itemImg: {
@@ -26,7 +27,6 @@ const styles = StyleSheet.create({
         marginRight: 15,
     },
 });
-
 
 const HomeStackNavigator = createStackNavigator({
         Home: {
@@ -82,14 +82,14 @@ const ShopStackNavigator = createStackNavigator({
         screen: ProductDetails,
         navigationOptions: () => ({
             title: 'Описание продукта',
-            headerBackTitle: null,
+            headerBackTitle: null
         }),
     },
     ProductDetailsDescription: {
         screen: ProductDetailsDescription,
         navigationOptions: () => ({
             title: 'Детальное описание',
-            headerBackTitle: null,
+            headerBackTitle: null
         }),
     },
 }, {
@@ -102,6 +102,23 @@ const ShopStackNavigator = createStackNavigator({
         ),
     },
 });
+
+const CartStackNavigator = createStackNavigator({
+    Cart: {
+        screen: Cart,
+        navigationOptions: () => ({
+            title: `Корзина`,
+        }),
+    },
+    CheckoutUnregisteredUser: {
+        screen: CheckoutUnregisteredUser,
+        navigationOptions: () => ({
+            title: `Оформление заказа`,
+            headerBackTitle: null
+        }),
+    },
+});
+
 
 const AppInnerNavigator = createBottomTabNavigator({
     Home: {
@@ -117,7 +134,7 @@ const AppInnerNavigator = createBottomTabNavigator({
         }),
     },
     Cart: {
-        screen: Cart,
+        screen: CartStackNavigator,
         navigationOptions: () => ({
             title: `Корзина`,
         }),

@@ -8,8 +8,8 @@ class CategoryList extends Component {
     render() {
         return (
             <ScrollableTabView
-                tabBarUnderlineStyle={{backgroundColor: palette.zuccini, height: 1.5}}
-                tabBarActiveTextColor={palette.zuccini}
+                tabBarUnderlineStyle={{backgroundColor: palette.seaGreen, height: 1.5}}
+                tabBarActiveTextColor={palette.seaGreen}
                 tabBarInactiveTextColor={palette.nobel}
                 tabBarTextStyle={{letterSpacing: 0.5}}
             >

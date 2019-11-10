@@ -11,7 +11,7 @@ export const styles = StyleSheet.create({
         marginTop: 10,
         marginBottom: 20,
         borderRadius: 5,
-        backgroundColor: palette.zuccini,
+        backgroundColor: palette.seaGreen,
     },
     imgWrapper: {
         width: '45%',
@@ -50,13 +50,11 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         marginTop: 7,
-        borderWidth: 1,
-        borderRadius: 5,
-        backgroundColor: 'rgba(51,68,75,0.7)',
-        borderColor: palette.nobel,
     },
     searchButtonText: {
-        fontSize: 16,
+        fontSize: 15,
+        textTransform: 'uppercase',
+        fontWeight: 'bold',
         color: palette.coconutCream,
     },
 });

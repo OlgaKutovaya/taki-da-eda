@@ -29,7 +29,7 @@ export const styles = StyleSheet.create({
     categoryTitle: {
         marginLeft: 40,
         fontSize: 16,
-        color: palette.zuccini,
+        color: palette.seaGreen,
         fontWeight: 'bold',
         fontStyle: 'italic',
         letterSpacing: 1,
@@ -44,7 +44,7 @@ export const styles = StyleSheet.create({
         borderRadius: 20,
     },
     countProductText: {
-        color: palette.tamarillo,
+        color: palette.burntUmber,
         fontSize: 15,
     },
 });

@@ -17,8 +17,7 @@ class BannerSunday extends Component {
                     <Text style={styles.title}>выходного дня</Text>
                     <Text style={styles.subtext}>будет доступен</Text>
                     <Text style={styles.subtext}>в это воскресенье</Text>
-                    <View
-                        style={styles.btn}>
+                    <View style={styles.btn}>
                         <Text style={styles.searchButtonText}>
                             смотреть рецепт
                         </Text>

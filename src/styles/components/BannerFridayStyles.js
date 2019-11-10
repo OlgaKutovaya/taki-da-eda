@@ -11,7 +11,7 @@ export const styles = StyleSheet.create({
         marginTop: 10,
         marginBottom: 20,
         borderRadius: 5,
-        backgroundColor: palette.tamarillo,
+        backgroundColor: palette.burntUmber,
     },
     imgWrapper: {
         width: '45%',

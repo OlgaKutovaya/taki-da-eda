@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
-import {FlatList, ScrollView, TouchableOpacity, View, Text, StyleSheet, Image} from 'react-native';
+import {FlatList, Text} from 'react-native';
 import {withNavigation} from 'react-navigation';
-import FoodIcon from '../../../../assets/images/cheese.jpg';
 import Product from './Product';
 import SearchPanel from '../../../components/SearchPanel';
 

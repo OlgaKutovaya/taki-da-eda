@@ -36,6 +36,7 @@ const styles = StyleSheet.create({
     },
     productCard: {
         paddingBottom: 3,
+        height: 220,
         borderBottomWidth: 2,
         borderColor: palette.gallery,
     },
@@ -47,7 +48,7 @@ const styles = StyleSheet.create({
     title: {
         paddingLeft: 7,
         marginBottom: 10,
-        color: palette.zuccini,
+        color: palette.seaGreen,
         fontSize: 15,
         fontWeight: 'bold',
         letterSpacing: 1
@@ -60,11 +61,11 @@ const styles = StyleSheet.create({
     },
     productWeight: {
         fontSize: 15,
-        color: palette.zuccini
+        color: palette.seaGreen
     },
     productPrice: {
         fontSize: 15,
-        color: palette.tamarillo,
+        color: palette.burntUmber,
         fontStyle: 'italic'
     }
 });

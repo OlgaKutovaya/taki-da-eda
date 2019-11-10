@@ -80,17 +80,17 @@ class ProductDetails extends Component {
         );
     };
 
-    renderShortDescription = (shortConsist) => {
+    renderShortDescription = (shortIngredients, productInfo) => {
         return (
             <View style={styles.consistDescriptionWrapper}>
                 <Text style={styles.consistDescriptionTitle}>Состав:{" "}
                     <Text style={styles.consistDescriptionText}>
-                        {shortConsist}
+                        {shortIngredients}
                     </Text>
                 </Text>
                 <TouchableOpacity
                     onPress={() =>
-                        this.props.navigation.navigate('ProductDetailsDescription')
+                        this.props.navigation.navigate('ProductDetailsDescription', {product: productInfo})
                     }
                     style={styles.goToFullDescriptionBtn}
                 >
@@ -143,7 +143,7 @@ class ProductDetails extends Component {
                             {this.renderHeader(product.name, product.weight, product.price)}
                             {this.renderContent()}
                         </View>
-                        {this.renderShortDescription(product.shortConsist)}
+                        {this.renderShortDescription(product.shortIngredients, product)}
                         {this.renderAddToCartCounter()}
                     </View>
                 </View>

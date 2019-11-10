@@ -26,12 +26,12 @@ export const styles = StyleSheet.create({
         fontSize: 18,
         marginLeft: 7,
         marginBottom: 3,
-        color: palette.tamarillo,
+        color: palette.burntUmber,
     },
     productPrice: {
         fontSize: 15,
         marginLeft: 7,
         marginBottom: 10,
-        color: palette.zuccini,
+        color: palette.seaGreen,
     },
 });

@@ -23,6 +23,6 @@ export const styles = StyleSheet.create({
     logoTitle: {
         fontSize: 30,
         fontWeight: 'bold',
-        color: palette.zuccini
+        color: palette.seaGreen
     },
 });

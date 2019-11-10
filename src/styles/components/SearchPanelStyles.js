@@ -46,7 +46,7 @@ export const styles = StyleSheet.create({
         justifyContent: 'center',
         borderWidth: 1,
         borderRadius: 5,
-        backgroundColor: palette.zuccini,
+        backgroundColor: palette.seaGreen,
         borderColor: 'rgba(142, 142, 147, 0.5)',
     },
     searchButtonText: {

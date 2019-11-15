@@ -108,6 +108,7 @@ const CartStackNavigator = createStackNavigator({
         screen: Cart,
         navigationOptions: () => ({
             title: `Корзина`,
+            headerBackTitle: null
         }),
     },
     CheckoutUnregisteredUser: {

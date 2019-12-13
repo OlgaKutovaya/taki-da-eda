@@ -1,8 +1,12 @@
 [
   {
-    "categoryName": "Любимые сыры",
+    "categoryName": "Сыры",
     "image": "https://chesom.com/blog/wp-content/uploads/2015/02/food_____different_varieties_of_cheese_086618_-900x540.jpg",
     "subCategoryList": [
+      {
+        "title": "Все сыры",
+        "image": "https://nssz.com.ua/catalog/view/theme/nssz/image/encyclopedia/banner-encyclopediya.jpg"
+      },
       {
         "title": "Твёрдые",
         "image": "https://e1.edimdoma.ru/data/posts/0001/6152/16152-ed4_wide.jpg?1495009389",
@@ -322,6 +326,10 @@
     "image": "https://99px.ru/sstorage/53/2014/12/tmb_119050_5667.jpg",
     "subCategoryList": [
       {
+        "title": "Все мясные деликатесы",
+        "image": "https://nssz.com.ua/catalog/view/theme/nssz/image/encyclopedia/banner-encyclopediya.jpg"
+      },
+      {
         "title": "Вяленое мясо",
         "image": "http://diet-world.ru/uploads/posts/2017-12/1512655883_original-2-.jpg",
         "detailsList": [
@@ -381,6 +389,10 @@
     "categoryName": "Оливки и производные",
     "image": "https://images.aif.ru/013/097/81a8b3ff6aaf24ea515e16f0be458c45.jpg",
     "subCategoryList": [
+      {
+        "title": "Все",
+        "image": "https://nssz.com.ua/catalog/view/theme/nssz/image/encyclopedia/banner-encyclopediya.jpg"
+      },
       {
         "title": "Масло",
         "image": "",

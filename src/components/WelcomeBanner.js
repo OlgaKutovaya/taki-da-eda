@@ -3,9 +3,9 @@ import {Text, Image, View, TouchableOpacity} from 'react-native';
 import Food2 from '../../assets/images/food2.jpg';
 import {styles} from '../styles/components/BannerSundayStyles';
 
-class BannerSunday extends Component {
+class WelcomeBanner extends Component {
   onPress = () => {
-    alert('sunday banner');
+    alert('welcome banner');
   };
 
   render() {
@@ -28,4 +28,4 @@ class BannerSunday extends Component {
   }
 }
 
-export default BannerSunday;
+export default WelcomeBanner;

@@ -33,7 +33,7 @@ const HomeStackNavigator = createStackNavigator(
     Home: {
       screen: Home,
       navigationOptions: () => ({
-        title: 'Главная',
+        title: 'Главная1',
       }),
     },
     Product: {

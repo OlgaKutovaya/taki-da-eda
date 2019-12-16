@@ -1,6 +1,7 @@
-export const SAVE_NEW_USER_DATA = 'SAVE_NEW_USER_DATA';
-export const DELETE_USER = 'DELETE_USER';
-export const GET_USER_DATA = 'GET_USER_DATA';
-export const SET_ACTIVE_USER_DATA = 'SET_ACTIVE_USER_DATA';
-export const SAVE_EDITED_USER_DATA = 'SAVE_EDITED_USER_DATA';
-export const USER_LOG_OUT = 'USER_LOG_OUT';
+const authActionTypes = {
+	GET_USER_DATA: "GET_USER_DATA",
+	LOG_IN_USER: "LOG_IN_USER",
+	LOG_OUT_USER: "LOG_OUT_USER"
+};
+
+export default authActionTypes;

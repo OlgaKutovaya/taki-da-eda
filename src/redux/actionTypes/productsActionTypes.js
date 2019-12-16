@@ -1,2 +1,6 @@
-export const ADD_ITEM = 'ADD_ITEM';
-export const DELETE_ITEM = 'DELETE_ITEM';
+const productsActionTypes = {
+	GET_PRODUCTS: "GET_PRODUCTS",
+	GET_PRODUCT: "GET_PRODUCT"
+};
+
+export default productsActionTypes;

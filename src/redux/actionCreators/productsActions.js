@@ -1,8 +1,8 @@
-import { ADD_ITEM, DELETE_ITEM } from "../actionTypes/productsActionTypes";
+import productsActionTypes from "../actionTypes/productsActionTypes";
 
 export const addItem = product => {
 	return {
-		type: ADD_ITEM,
+		type: productsActionTypes.GET_PRODUCT,
 		payload: {
 			id: 1
 		}
@@ -11,7 +11,7 @@ export const addItem = product => {
 
 export const deleteItem = id => {
 	return {
-		type: DELETE_ITEM,
+		type: productsActionTypes.GET_PRODUCTS,
 		payload: id
 	};
 };

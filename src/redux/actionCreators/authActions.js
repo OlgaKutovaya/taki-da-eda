@@ -1,16 +1,11 @@
-import {
-	GET_USER_DATA,
-	DELETE_USER,
-	SAVE_EDITED_USER_DATA,
-	SAVE_NEW_USER_DATA
-} from "../actionTypes/authActionTypes";
+import authActionTypes from "../actionTypes/authActionTypes";
 
 export const getUserData = () => {
 	return async dispatch => {
 		const response = await fetch("/DATA.json");
 		const data = await response.json();
 		dispatch({
-			type: GET_USER_DATA,
+			type: authActionTypes.GET_USER_DATA,
 			payload: data
 		});
 	};
@@ -28,7 +23,7 @@ export const deleteUser = id => {
 		}
 
 		dispatch({
-			type: DELETE_USER,
+			type: authActionTypes.LOG_IN_USER,
 			payload: newUsers
 		});
 	};
@@ -41,7 +36,7 @@ export const saveEditedUserData = user => {
 		const userIndex = users.findIndex(elem => elem.id === user.id);
 		newUsers[userIndex] = user;
 		dispatch({
-			type: SAVE_EDITED_USER_DATA,
+			type: authActionTypes.LOG_IN_USER,
 			payload: newUsers
 		});
 	};
@@ -58,7 +53,7 @@ export const saveNewUserData = user => {
 		});
 		const newUsers = [...users, { ...user, id: ++maxID }];
 		dispatch({
-			type: SAVE_NEW_USER_DATA,
+			type: authActionTypes.LOG_IN_USER,
 			payload: newUsers
 		});
 	};

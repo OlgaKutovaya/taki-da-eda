@@ -14,6 +14,9 @@ const ItemInput = props => {
         style={styles.input}
         value={props.inputValue}
         onChangeText={text => props.onInputChange(props.name, text)}
+        autoCapitalize="none"
+        autoCorrect={false}
+        {...props}
       />
     </View>
   );

@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import {useDispatch} from 'react-redux';
 import {
   SafeAreaView,
   ScrollView,
@@ -9,17 +10,27 @@ import {
 } from 'react-native';
 import ItemInput from './ItemInput';
 import AuthBtn from '../../components/AuthButton';
+import {signUpUser} from '../../redux/actionCreators/authActions';
 
 const {width} = Dimensions.get('window');
 
 const SignUp = props => {
-  const initialState = {name: '', email: '', password: '', repeatPassword: ''};
+  // const user = useSelector(state => state.auth.user);
+  const dispatch = useDispatch();
+  const initialState = {
+    name: 'Test',
+    email: 'test@mail.ru',
+    password: '123456',
+    confirmPassword: '123456',
+  };
   const [signUpState, setSignUpState] = useState(initialState);
   const handleInputChange = (inputName, text) => {
     setSignUpState(prevState => ({...prevState, [inputName]: text}));
   };
   const handlePress = () => {
-    alert(JSON.stringify(signUpState));
+    dispatch(signUpUser(signUpState));
+    setSignUpState(initialState);
+    props.navigation.navigate('AppInner');
   };
   return (
     <SafeAreaView style={styles.wrapper}>
@@ -42,12 +53,14 @@ const SignUp = props => {
           inputValue={signUpState.password}
           name="password"
           onInputChange={handleInputChange}
+          secureTextEntry
         />
         <ItemInput
           label="Повторите пароль"
-          name="repeatPassword"
-          inputValue={signUpState.repeatPassword}
+          name="confirmPassword"
+          inputValue={signUpState.confirmPassword}
           onInputChange={handleInputChange}
+          secureTextEntry
         />
         <AuthBtn label="Зарегистрироваться" onPress={handlePress} />
         <TouchableOpacity onPress={() => props.navigation.navigate('Login')}>

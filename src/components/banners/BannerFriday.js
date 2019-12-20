@@ -1,16 +1,17 @@
 import React, {Component} from 'react';
 import {Text, Image, View} from 'react-native';
-import Food1 from '../../assets/images/food1.jpg';
-import {styles} from '../styles/components/BannerFridayStyles';
+import Food1 from '../../../assets/images/food/food1.jpg';
+import {styles} from '../../styles/components/banners/BannerFridayStyles';
+import BannerWrapper from './BannerWrapper';
 
 const discountDay = '15.11.2019';
 
 class BannerFriday extends Component {
   render() {
     return (
-      <View style={styles.bannerContainer}>
+      <BannerWrapper style={styles.bannerFridayContainer}>
         <View style={styles.imgWrapper}>
-          <Image source={Food1} style={styles.foodIcon} resizeMode="cover"/>
+          <Image source={Food1} style={styles.foodIcon} resizeMode="cover" />
         </View>
         <View style={styles.textWrapper}>
           <Text style={styles.title}>скидка</Text>
@@ -21,7 +22,7 @@ class BannerFriday extends Component {
             <Text style={styles.discountText}>5%</Text>
           </View>
         </View>
-      </View>
+      </BannerWrapper>
     );
   }
 }

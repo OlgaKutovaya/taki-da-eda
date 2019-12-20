@@ -5,7 +5,7 @@ const initialState = {
 };
 
 export default (state = initialState, action) => {
-  alert(JSON.stringify(action))
+  // alert(JSON.stringify(action));
   switch (action.type) {
     case authActionTypes.SIGN_UP_USER:
       return {

@@ -2,9 +2,9 @@ import React, {Component} from 'react';
 import {View} from 'react-native';
 import Swiper from 'react-native-swiper';
 import {styles} from '../styles/components/SwiperComponentStyles';
-import WelcomeBanner from './WelcomeBanner';
-import BannerFriday from './BannerFriday';
-import BannerSunday from './BannerSunday';
+import BannerWelcome from './banners/BannerWelcome';
+import BannerFriday from './banners/BannerFriday';
+import BannerSunday from './banners/BannerSunday';
 
 export class SwiperComponent extends Component {
   render() {
@@ -17,7 +17,7 @@ export class SwiperComponent extends Component {
           containerStyle={styles.wrapper}
           autoplay={true}>
           <View style={styles.slide}>
-            <WelcomeBanner />
+            <BannerWelcome />
           </View>
           <View style={styles.slide}>
             <BannerFriday />

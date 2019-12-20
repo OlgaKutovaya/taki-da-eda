@@ -1,15 +1,11 @@
-import {StyleSheet, Dimensions} from 'react-native';
-import {palette} from '../../palette';
-
-const {width} = Dimensions.get('window');
+import {StyleSheet} from 'react-native';
 
 export const styles = StyleSheet.create({
-    cartScreenWrapper: {
-        flex: 1,
-        paddingTop: Platform.OS === 'ios' ? 30 : 0,
-    },
-    infoContentWrapper: {
-        alignItems: 'center',
-        paddingTop: 25
-    }
+  cartScreenWrapper: {
+    flex: 1,
+  },
+  infoContentWrapper: {
+    alignItems: 'center',
+    paddingTop: 25,
+  },
 });

@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
-import {Text, Image, View, TouchableOpacity} from 'react-native';
-import Food2 from '../../assets/images/food2.jpg';
-import {styles} from '../styles/components/BannerSundayStyles';
+import {Text, Image, View} from 'react-native';
+import Food2 from '../../../assets/images/food/food2.jpg';
+import {styles} from '../../styles/components/banners/BannerSundayStyles';
+import BannerWrapper from './BannerWrapper';
 
 class BannerSunday extends Component {
   onPress = () => {
@@ -10,7 +11,9 @@ class BannerSunday extends Component {
 
   render() {
     return (
-      <TouchableOpacity style={styles.bannerContainer} onPress={this.onPress}>
+      <BannerWrapper
+        style={styles.bannerSundayContainer}
+        onPress={this.onPress}>
         <View style={styles.textWrapper}>
           <Text style={styles.title}>рецепт</Text>
           <Text style={styles.title}>выходного дня</Text>
@@ -23,7 +26,7 @@ class BannerSunday extends Component {
         <View style={styles.imgWrapper}>
           <Image source={Food2} style={styles.foodIcon} resizeMode="contain" />
         </View>
-      </TouchableOpacity>
+      </BannerWrapper>
     );
   }
 }

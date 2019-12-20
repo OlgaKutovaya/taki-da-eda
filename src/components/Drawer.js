@@ -1,12 +1,14 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import {useSelector} from 'react-redux';
+import {styles} from '../styles/components/DrawerStyles';
+import userIcon from '../../assets/images/user/user.png';
 import {
   Image,
+  SafeAreaView,
   View,
   ScrollView,
   Text,
   TouchableOpacity,
-  StyleSheet,
 } from 'react-native';
 
 const Drawer = ({navigation}) => {
@@ -17,20 +19,16 @@ const Drawer = ({navigation}) => {
     navigation.closeDrawer();
   };
 
-  const handleCloseDrawerPress = () => {
-    navigation.closeDrawer();
-  };
+  // const handleCloseDrawerPress = () => {
+  //   navigation.closeDrawer();
+  // };
 
-  return (
-    <ScrollView style={styles.drawerContainer}>
-      <TouchableOpacity
-        style={styles.closeDrawerContainer}
-        onPress={handleCloseDrawerPress}>
-        <Image
-          source={require('../../assets/images/icon-close.png')}
-          style={styles.closeDrawerBtn}
-        />
-      </TouchableOpacity>
+  const registeredUser = (
+    <>
+      <View style={styles.userInfoContainer}>
+        <Image source={userIcon} style={styles.userImg} resizeMode="contain" />
+        <Text style={styles.userName}>{user.name}</Text>
+      </View>
       <TouchableOpacity
         style={styles.drawerItem}
         onPress={() => handleItemPress('Dashboard')}>
@@ -46,35 +44,40 @@ const Drawer = ({navigation}) => {
         onPress={() => handleItemPress('Bonuses')}>
         <Text>Bonuses</Text>
       </TouchableOpacity>
-      <Text>{JSON.stringify(user)}</Text>
-    </ScrollView>
+    </>
+  );
+
+  const unregisteredUser = (
+    <View style={styles.unregisteredUserInfoContainer}>
+      <Text style={styles.title}>Таки Да Еда</Text>
+      <View style={styles.loginBtnContainer}>
+        <TouchableOpacity style={styles.loginBtn}>
+          <Text style={styles.loginBtnText}>Вход</Text>
+        </TouchableOpacity>
+        <TouchableOpacity style={styles.loginBtn}>
+          <Text style={styles.loginBtnText}>Регистрация</Text>
+        </TouchableOpacity>
+      </View>
+    </View>
+  );
+
+  return (
+    <SafeAreaView style={styles.drawerContainer}>
+      <ScrollView>
+        {/*<TouchableOpacity*/}
+        {/*  style={styles.closeDrawerContainer}*/}
+        {/*  onPress={handleCloseDrawerPress}>*/}
+        {/*  <Image*/}
+        {/*    source={require('../../assets/images/icon-close.png')}*/}
+        {/*    style={styles.closeDrawerBtn}*/}
+        {/*  />*/}
+        {/*</TouchableOpacity>*/}
+        {Object.entries(user).length === 0 && user.constructor === Object
+          ? unregisteredUser
+          : registeredUser}
+      </ScrollView>
+    </SafeAreaView>
   );
 };
-
-const styles = StyleSheet.create({
-  drawerContainer: {
-    flex: 1,
-  },
-  closeDrawerContainer: {
-    marginTop: 10,
-    marginRight: 10,
-    width: 40,
-    height: 40,
-    alignSelf: 'flex-end',
-  },
-  closeDrawerBtn: {
-    width: 40,
-    height: 40,
-  },
-  drawerItem: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    height: 50,
-    paddingVertical: 5,
-    paddingHorizontal: 15,
-    borderBottomWidth: StyleSheet.hairlineWidth,
-    borderBottomColor: '#000',
-  },
-});
 
 export default Drawer;

@@ -8,5 +8,6 @@ export const palette = {
   burntUmber: '#8b292b',
   aubergine: '#410c12',
   seaGreen: '#378e59',
+  oracle: '#347465',
   codGray: '#0A0A0A',
 };

@@ -1,52 +1,34 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {
   SafeAreaView,
+  View,
   TouchableOpacity,
   ScrollView,
   Text,
-  StyleSheet,
-  Dimensions,
 } from 'react-native';
+import {styles} from '../../styles/screens/auth/LoginStyles';
 import ItemInput from './ItemInput';
 import AuthBtn from '../../components/AuthButton';
-
-const {width} = Dimensions.get('window');
 
 const Login = props => {
   return (
     <SafeAreaView style={styles.wrapper}>
       <ScrollView style={styles.innerWrapper}>
-        <Text style={styles.title}>Вход</Text>
+        <Text style={styles.title}>Вход в аккаунт</Text>
         <ItemInput label="Электронная почта" />
         <ItemInput label="Пароль" />
         <AuthBtn label="Войти" />
-        <TouchableOpacity>
-          <Text>Забыл(а) пароль</Text>
-        </TouchableOpacity>
-        <TouchableOpacity onPress={() => props.navigation.navigate('SignUp')}>
-          <Text>Регистрация</Text>
-        </TouchableOpacity>
+        <View style={styles.accessoryBtnWrapper}>
+          <TouchableOpacity style={styles.forgotPasswordBtn}>
+            <Text style={styles.forgotPasswordBtnText}>Забыл(а) пароль</Text>
+          </TouchableOpacity>
+          <TouchableOpacity onPress={() => props.navigation.navigate('SignUp')}>
+            <Text style={styles.signUpBtnText}>Регистрация</Text>
+          </TouchableOpacity>
+        </View>
       </ScrollView>
     </SafeAreaView>
   );
 };
-
-const styles = StyleSheet.create({
-  wrapper: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  innerWrapper: {
-    width: width * 0.8,
-    flexGrow: 0,
-  },
-  title: {
-    textTransform: 'uppercase',
-    alignSelf: 'center',
-    fontSize: 20,
-    marginBottom: 30,
-  },
-});
 
 export default Login;
